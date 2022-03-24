@@ -18,6 +18,11 @@ public data class TelegramXMainScreenModel(
   /**
    * TODO Replace with dynamic value
    */
+  public var txtYouChickenMc: String? = MyApp.getInstance().resources.getString(R.string.lbl_sa)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
   public var txtBufordMadDog: String? =
       MyApp.getInstance().resources.getString(R.string.msg_buford_mad_dog)
   ,
@@ -115,10 +120,6 @@ public data class TelegramXMainScreenModel(
    */
   public var txtMay3: String? = MyApp.getInstance().resources.getString(R.string.lbl_may_02)
   ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  public var etYouChickenMcValue: String? = null,
   /**
    * TODO Replace with dynamic value
    */

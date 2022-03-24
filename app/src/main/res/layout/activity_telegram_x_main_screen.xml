@@ -75,9 +75,8 @@
                         <FrameLayout android:id="@+id/frameGroup65"
                             android:layout_gravity="start"
                             android:layout_height="@dimen/_71pxv" android:layout_width="@dimen/_350pxh">
-                            <EditText android:ellipsize="end"
-                                android:hint="@string/msg_you_chicken_mc"
-                                android:id="@+id/etYouChickenMc"
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtYouChickenMc"
                                 android:layout_gravity="bottom|end"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_10pxh"
@@ -87,8 +86,8 @@
                                 android:paddingStart="@dimen/_6pxh"
                                 android:paddingTop="@dimen/_1pxv"
                                 android:singleLine="true"
-                                android:text="@={telegramXMainScreenVM.telegramXMainScreenModel.etYouChickenMcValue}"
-                                android:textColorHint="@color/bluegray_400" style="@style/etRobotoregular15"/>
+                                android:text="@{telegramXMainScreenVM.telegramXMainScreenModel.txtYouChickenMc}"
+                                style="@style/txtRobotoregular15" tools:text="@string/lbl_sa"/>
                             <LinearLayout
                                 android:id="@+id/linearGroup32"
                                 android:layout_gravity="top|start"
