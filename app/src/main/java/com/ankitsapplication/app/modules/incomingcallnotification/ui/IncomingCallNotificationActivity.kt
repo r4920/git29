@@ -22,33 +22,33 @@ public class IncomingCallNotificationActivity :
 
   public override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras
-    val recyclerGroup127Adapter =
-    RecyclerGroup127Adapter(viewModel.recyclerGroup127List.value?:mutableListOf())
-    binding.recyclerGroup127.adapter = recyclerGroup127Adapter
-    recyclerGroup127Adapter.setOnItemClickListener(
-    object : RecyclerGroup127Adapter.OnItemClickListener {
+    val recyclerGroup187Adapter =
+    RecyclerGroup187Adapter(viewModel.recyclerGroup187List.value?:mutableListOf())
+    binding.recyclerGroup187.adapter = recyclerGroup187Adapter
+    recyclerGroup187Adapter.setOnItemClickListener(
+    object : RecyclerGroup187Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item :
       IncomingCallNotification1RowModel) {
-        onClickRecyclerGroup127(view, position, item)
+        onClickRecyclerGroup187(view, position, item)
       }
     }
     )
-    viewModel.recyclerGroup127List.observe(this) {
-      recyclerGroup127Adapter.updateData(it)
+    viewModel.recyclerGroup187List.observe(this) {
+      recyclerGroup187Adapter.updateData(it)
     }
-    val recyclerGroup128Adapter =
-    RecyclerGroup128Adapter(viewModel.recyclerGroup128List.value?:mutableListOf())
-    binding.recyclerGroup128.adapter = recyclerGroup128Adapter
-    recyclerGroup128Adapter.setOnItemClickListener(
-    object : RecyclerGroup128Adapter.OnItemClickListener {
+    val recyclerGroup188Adapter =
+    RecyclerGroup188Adapter(viewModel.recyclerGroup188List.value?:mutableListOf())
+    binding.recyclerGroup188.adapter = recyclerGroup188Adapter
+    recyclerGroup188Adapter.setOnItemClickListener(
+    object : RecyclerGroup188Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item :
       IncomingCallNotification2RowModel) {
-        onClickRecyclerGroup128(view, position, item)
+        onClickRecyclerGroup188(view, position, item)
       }
     }
     )
-    viewModel.recyclerGroup128List.observe(this) {
-      recyclerGroup128Adapter.updateData(it)
+    viewModel.recyclerGroup188List.observe(this) {
+      recyclerGroup188Adapter.updateData(it)
     }
     binding.incomingCallNotificationVM = viewModel
   }
@@ -56,7 +56,7 @@ public class IncomingCallNotificationActivity :
   public override fun setUpClicks(): Unit {
   }
 
-  public fun onClickRecyclerGroup127(
+  public fun onClickRecyclerGroup187(
     view: View,
     position: Int,
     item: IncomingCallNotification1RowModel
@@ -65,7 +65,7 @@ public class IncomingCallNotificationActivity :
     }
   }
 
-  public fun onClickRecyclerGroup128(
+  public fun onClickRecyclerGroup188(
     view: View,
     position: Int,
     item: IncomingCallNotification2RowModel

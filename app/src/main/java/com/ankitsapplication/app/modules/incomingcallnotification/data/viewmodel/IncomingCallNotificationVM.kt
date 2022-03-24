@@ -14,9 +14,9 @@ public class IncomingCallNotificationVM : ViewModel() {
 
   public var navArguments: Bundle? = null
 
-  public val recyclerGroup127List: MutableLiveData<MutableList<IncomingCallNotification1RowModel>> =
+  public val recyclerGroup187List: MutableLiveData<MutableList<IncomingCallNotification1RowModel>> =
       MutableLiveData(mutableListOf())
 
-  public val recyclerGroup128List: MutableLiveData<MutableList<IncomingCallNotification2RowModel>> =
+  public val recyclerGroup188List: MutableLiveData<MutableList<IncomingCallNotification2RowModel>> =
       MutableLiveData(mutableListOf())
 }

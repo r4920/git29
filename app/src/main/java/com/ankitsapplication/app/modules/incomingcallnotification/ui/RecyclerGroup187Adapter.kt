@@ -11,9 +11,9 @@ import kotlin.Int
 import kotlin.Unit
 import kotlin.collections.List
 
-public class RecyclerGroup127Adapter(
+public class RecyclerGroup187Adapter(
   public var list: List<IncomingCallNotification1RowModel>
-) : RecyclerView.Adapter<RecyclerGroup127Adapter.RowIncomingCallNotification1VH>() {
+) : RecyclerView.Adapter<RecyclerGroup187Adapter.RowIncomingCallNotification1VH>() {
   private var clickListener: OnItemClickListener? = null
 
   public override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):

@@ -7,11 +7,11 @@
     <LinearLayout android:gravity="end" android:id="@+id/linearGroup"
         android:layout_height="wrap_content"
         android:layout_width="match_parent" android:orientation="vertical">
-        <LinearLayout android:id="@+id/linearGroup86"
+        <LinearLayout android:id="@+id/linearGroup146"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_9pxv"
             android:layout_width="match_parent" android:orientation="horizontal">
-            <LinearLayout android:id="@+id/linearGroup85"
+            <LinearLayout android:id="@+id/linearGroup145"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_10pxh"
                 android:layout_weight="0.82" android:layout_width="0dp" android:orientation="horizontal">
