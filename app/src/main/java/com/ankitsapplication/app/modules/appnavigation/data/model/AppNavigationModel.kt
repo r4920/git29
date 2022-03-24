@@ -26,12 +26,6 @@ public data class AppNavigationModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txt02IncomingCallNotification: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_02_incoming_cal)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
   public var txt03IncomingCallNotification: String? =
       MyApp.getInstance().resources.getString(R.string.msg_03_incoming_cal)
   ,

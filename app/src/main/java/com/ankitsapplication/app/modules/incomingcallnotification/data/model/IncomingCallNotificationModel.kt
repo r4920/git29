@@ -80,6 +80,10 @@ public data class IncomingCallNotificationModel(
   /**
    * TODO Replace with dynamic value
    */
+  public var etOpenChatValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
   public var etOkayValue: String? = null,
   /**
    * TODO Replace with dynamic value

@@ -7,11 +7,11 @@
     <LinearLayout android:gravity="end" android:id="@+id/linearGroup"
         android:layout_height="wrap_content"
         android:layout_width="match_parent" android:orientation="vertical">
-        <LinearLayout android:id="@+id/linearGroup109"
+        <LinearLayout android:id="@+id/linearGroup169"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_9pxv"
             android:layout_width="match_parent" android:orientation="horizontal">
-            <LinearLayout android:id="@+id/linearGroup98"
+            <LinearLayout android:id="@+id/linearGroup158"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_10pxh"
                 android:layout_weight="0.81" android:layout_width="0dp" android:orientation="horizontal">
@@ -68,7 +68,7 @@
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout android:gravity="end"
-                android:id="@+id/linearGroup108"
+                android:id="@+id/linearGroup168"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_6pxv"
                 android:layout_marginEnd="@dimen/_13pxh"
@@ -81,7 +81,7 @@
                     <ImageView android:id="@+id/imageLineReadIco"
                         android:layout_height="@dimen/_18pxh"
                         android:layout_width="@dimen/_18pxh"
-                        android:scaleType="fitXY" android:src="@drawable/img_linereadico_1"/>
+                        android:scaleType="fitXY" android:src="@drawable/img_linereadico"/>
                     <TextView android:ellipsize="end"
                         android:id="@+id/txtMay02"
                         android:layout_height="wrap_content"
